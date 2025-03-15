@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: text-to-speech-api
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      - key: AIzaSyDgxRYcVRy0funt8G8E4OSrldRnyLqUSLc 
+        value: /etc/secrets/key.json
+    disk:
+      name: tts-data
+      sizeGB: 1
+    autoDeploy: true
