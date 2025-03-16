@@ -3,7 +3,7 @@ server:
   environment: development
 
 api_keys:
-  tts_provider: "AIzaSyDgxRYcVRy0funt8G8E4OSrldRnyLqUSLc"
+  tts_provider: "6842076c284fe19355407f77db97314b495d52c7"
 
 tts_settings:
   language: "en-US"
