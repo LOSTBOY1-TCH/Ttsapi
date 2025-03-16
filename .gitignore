@@ -1,0 +1,17 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+
+# API keys and credentials
+key.json
+config.yaml
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Others
+.DS_Store
