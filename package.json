@@ -1,0 +1,16 @@
+{
+  "name": "text-to-audio-api",
+  "version": "1.0.0",
+  "description": "A Node.js API for converting text into audio using text-to-speech.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["text-to-speech", "API", "audio"],
+  "author": "LOSTBOY",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.1",
+    "js-yaml": "^4.1.0"
